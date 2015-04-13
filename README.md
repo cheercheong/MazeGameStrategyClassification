@@ -6,9 +6,7 @@ Implementation of Expectation–maximization (EM) algorithm in C++ to classify t
 
 Matlab Project: DataPreprocessing
 
-Src: data_preprocessing.m , for data preprocessing and feature extraction 
-
-	and observation.m , for checking the result
+Src: data_preprocessing.m , for data preprocessing and feature extraction, Observation.m , for checking the result
 
 InputData: 8 field map text files and 8 corresponding playonfield text files.
 
