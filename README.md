@@ -1,10 +1,19 @@
 # MazeGameStrategyClassification
 Implementation of Expectation–maximization (EM) algorithm in C++ to classify the strategies applied by 300 plays when playing a maze game
 
+//**************************************************************************//
+
+Files field1.txt through field8.txt each contain the “topology” of ﬁeld 1 through 8. That is, each
+ﬁle, a text ﬁle, is a 512-by-512 matrix, where the matrix entry is the diﬃculty level of the ﬁeld at the
+corresponding location.
+
+Files playOnField1.txt to playOnField8.txt each contain the trajectories of the 300 players when
+they played on respectively ﬁeld 1 through 8. The trajectory of a player is the row-column coordinate of
+the player at each time instant. 
 
 //**************************************************************************//
 
-Matlab Project: DataPreprocessing
+Matlab part: DataPreprocessing
 
 Src: data_preprocessing.m , for data preprocessing and feature extraction, Observation.m , for checking the result
 
@@ -16,7 +25,7 @@ Warning: running data_preprocessing takes a lot of time, you can set the k value
 
 //**************************************************************************//
 
-C++ Project: StrategyClustering
+C++ part: StrategyClustering
 
 Src: Source code folder, including main.cpp, em.cpp, em.h
 
